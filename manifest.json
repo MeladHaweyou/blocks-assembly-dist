@@ -1,0 +1,90 @@
+{
+  "grid_pitch_m": 0.038,
+  "grid_size": 7,
+  "layers": 43,
+  "thickness_m": 0.019,
+  "brick_types": {
+    "1x1": {
+      "span_w_cells": 1,
+      "span_h_cells": 1,
+      "size_x_m": 0.038,
+      "size_y_m": 0.038,
+      "size_z_m": 0.019
+    },
+    "1x2": {
+      "span_w_cells": 2,
+      "span_h_cells": 1,
+      "size_x_m": 0.076,
+      "size_y_m": 0.038,
+      "size_z_m": 0.019
+    },
+    "2x2": {
+      "span_w_cells": 2,
+      "span_h_cells": 2,
+      "size_x_m": 0.076,
+      "size_y_m": 0.076,
+      "size_z_m": 0.019
+    },
+    "1x4": {
+      "span_w_cells": 4,
+      "span_h_cells": 1,
+      "size_x_m": 0.152,
+      "size_y_m": 0.038,
+      "size_z_m": 0.019
+    }
+  },
+  "designs": {
+    "A_xbraced_tube": {
+      "csv": "/mnt/data/assemblies/A_xbraced_tube.csv",
+      "porosity": {
+        "A_env_cells": 37,
+        "N_occ_cells": 350,
+        "layers": 43,
+        "P_eff": 0.7800125707102451,
+        "avg_occ_per_layer": 8.13953488372093,
+        "min_occ_layer": 6,
+        "max_occ_layer": 11
+      },
+      "part_count": 181
+    },
+    "B_checkerboard": {
+      "csv": "/mnt/data/assemblies/B_checkerboard.csv",
+      "porosity": {
+        "A_env_cells": 49,
+        "N_occ_cells": 1054,
+        "layers": 43,
+        "P_eff": 0.49976269577598487,
+        "avg_occ_per_layer": 24.511627906976745,
+        "min_occ_layer": 24,
+        "max_occ_layer": 25
+      },
+      "part_count": 1054
+    },
+    "C_helical_louver": {
+      "csv": "/mnt/data/assemblies/C_helical_louver.csv",
+      "porosity": {
+        "A_env_cells": 27,
+        "N_occ_cells": 342,
+        "layers": 43,
+        "P_eff": 0.7054263565891472,
+        "avg_occ_per_layer": 7.953488372093023,
+        "min_occ_layer": 5,
+        "max_occ_layer": 10
+      },
+      "part_count": 100
+    },
+    "D_diagrid_core": {
+      "csv": "/mnt/data/assemblies/D_diagrid_core.csv",
+      "porosity": {
+        "A_env_cells": 18,
+        "N_occ_cells": 314,
+        "layers": 43,
+        "P_eff": 0.5943152454780362,
+        "avg_occ_per_layer": 7.3023255813953485,
+        "min_occ_layer": 5,
+        "max_occ_layer": 8
+      },
+      "part_count": 141
+    }
+  }
+}

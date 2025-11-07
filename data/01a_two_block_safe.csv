@@ -1,0 +1,7 @@
+section,key,value,material,density_kgm3,mu_slide,mu_spin,mu_roll,restitution,block_type,size_x_m,size_y_m,size_z_m,material_of_type,shape,wedge_run_x_m,wedge_width_y_m,wedge_rise_z_m,color_rgba,order,label,posX_m,posY_m,posZ_m,rotX_deg,rotY_deg,rotZ_deg,delay_after_s
+meta,sim_name,Two block safe,,,,,,,,,,,,,,,,,,,,,,,,,
+materials,,,MDF,750.0,0.55,0.0,0.0,0.0,,,,,,,,,,,,,,,,,,,
+block_types,,,,,,,,,brick,0.038,0.076,0.019,MDF,,,,,,,,,,,,,,
+block_types,,,,,,,,,cap,0.038,0.038,0.019,MDF,,,,,,,,,,,,,,
+assembly,,,,,,,,,brick,,,,,,,,,,1,Base,0.0,0.0,0.0095,,,,
+assembly,,,,,,,,,cap,,,,,,,,,,2,Top,0.0,0.0,0.0285,,,,

@@ -1,0 +1,17 @@
+section,key,value,material,density_kgm3,mu_slide,mu_spin,mu_roll,restitution,block_type,size_x_m,size_y_m,size_z_m,material_of_type,shape,wedge_run_x_m,wedge_width_y_m,wedge_rise_z_m,color_rgba,order,label,posX_m,posY_m,posZ_m,rotX_deg,rotY_deg,rotZ_deg
+meta,camera_distance,1.4,,,,,,,,,,,,,,,,,,,,,,,,
+meta,placement_mode,gentle,,,,,,,,,,,,,,,,,,,,,,,,
+meta,servo_clearance_mm,0.3,,,,,,,,,,,,,,,,,,,,,,,,
+materials,,,WOOD,700,0.60,0,0,0,,,,,,,,,,,,,,,,,,
+block_types,,,,,,,,,Tile40,0.040,0.040,0.020,WOOD,,,,,,,,,,,,,
+block_types,,,,,,,,,Beam120,0.120,0.040,0.020,WOOD,,,,,,,,,,,,,
+assembly,,,,,,,,,Tile40,,,,,,,,,,1,Left_L1,-0.060,0.000,0.010,0,0,0
+assembly,,,,,,,,,Tile40,,,,,,,,,,2,Left_L2,-0.060,0.000,0.030,0,0,0
+assembly,,,,,,,,,Tile40,,,,,,,,,,3,Left_L3,-0.060,0.000,0.050,0,0,0
+assembly,,,,,,,,,Tile40,,,,,,,,,,4,Right_L1,0.060,0.000,0.010,0,0,0
+assembly,,,,,,,,,Tile40,,,,,,,,,,5,Right_L2,0.060,0.000,0.030,0,0,0
+assembly,,,,,,,,,Tile40,,,,,,,,,,6,Right_L3,0.060,0.000,0.050,0,0,0
+assembly,,,,,,,,,Tile40,,,,,,,,,,7,TEMP_L1,0.000,0.000,0.010,0,0,0
+assembly,,,,,,,,,Tile40,,,,,,,,,,8,TEMP_L2,0.000,0.000,0.030,0,0,0
+assembly,,,,,,,,,Tile40,,,,,,,,,,9,TEMP_L3,0.000,0.000,0.050,0,0,0
+assembly,,,,,,,,,Beam120,,,,,,,,,,10,Top_beam,0.000,0.000,0.070,0,0,0

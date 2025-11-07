@@ -1,0 +1,19 @@
+section,key,value,material,density_kgm3,mu_slide,mu_spin,mu_roll,restitution,block_type,size_x_m,size_y_m,size_z_m,material_of_type,shape,wedge_run_x_m,wedge_width_y_m,wedge_rise_z_m,color_rgba,order,label,posX_m,posY_m,posZ_m,rotX_deg,rotY_deg,rotZ_deg
+meta,camera_distance,1.6,,,,,,,,,,,,,,,,,,,,,,,,
+meta,placement_mode,gentle,,,,,,,,,,,,,,,,,,,,,,,,
+meta,servo_clearance_mm,0.3,,,,,,,,,,,,,,,,,,,,,,,,
+materials,,,RAMP,2600,0.90,0,0,0,,,,,,,,,,,,,,,,,,
+materials,,,LOW,700,0.20,0,0,0,,,,,,,,,,,,,,,,,,
+materials,,,MID,700,0.35,0,0,0,,,,,,,,,,,,,,,,,,
+materials,,,HIGH,700,0.45,0,0,0,,,,,,,,,,,,,,,,,,
+materials,,,SUPER,700,0.60,0,0,0,,,,,,,,,,,,,,,,,,
+block_types,,,,,,,,,Ramp20deg,0.600,0.300,0.218,RAMP,wedge,0.600,0.300,0.218,,,,,,,,,
+block_types,,,,,,,,,BlockLow,0.04,0.04,0.02,LOW,,,,,,,,,,,,,
+block_types,,,,,,,,,BlockMid,0.04,0.04,0.02,MID,,,,,,,,,,,,,
+block_types,,,,,,,,,BlockHigh,0.04,0.04,0.02,HIGH,,,,,,,,,,,,,
+block_types,,,,,,,,,BlockSuper,0.04,0.04,0.02,SUPER,,,,,,,,,,,,,
+assembly,,,,,,,,,Ramp20deg,,,,,,,,,,1,Ramp 20deg,0,0,0.109,0,0,0
+assembly,,,,,,,,,BlockLow,,,,,,,,,,2,μ=0.20 expect_slide,-0.150,-0.100,0.248,0,0,0
+assembly,,,,,,,,,BlockMid,,,,,,,,,,3,μ=0.35 expect_slide (near threshold),-0.150,-0.030,0.248,0,0,0
+assembly,,,,,,,,,BlockHigh,,,,,,,,,,4,μ=0.45 expect_stay,-0.150,0.030,0.248,0,0,0
+assembly,,,,,,,,,BlockSuper,,,,,,,,,,5,μ=0.60 expect_stay,-0.150,0.100,0.248,0,0,0

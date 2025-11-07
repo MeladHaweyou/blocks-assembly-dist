@@ -1,0 +1,10 @@
+section,key,value,material,density_kgm3,mu_slide,mu_spin,mu_roll,restitution,block_type,size_x_m,size_y_m,size_z_m,material_of_type,color_rgba,order,label,posX_m,posY_m,posZ_m,rotX_deg,rotY_deg,rotZ_deg
+meta,camera_distance,1.0,,,,,,,,,,,,,,,,,,,,
+meta,placement_mode,gentle,,,,,,,,,,,,,,,,,,,,
+meta,servo_clearance_mm,0.3,,,,,,,,,,,,,,,,,,,,
+materials,,,WOOD_CLEAN,700.000000,0.600000,0.000000,0.000000,0.000000,,,,,,,,,,,,,,
+block_types,,,,,,,,,Std,0.040000,0.040000,0.020000,WOOD_CLEAN,,,,,,,,,
+assembly,,,,,,,,,Std,,,,,,1,L1_nominal,0.000000,0.000000,0.010000,0.000000,0.000000,0.000000
+assembly,,,,,,,,,Std,,,,,,2,L2_nominal,0.000000,0.000000,0.030000,0.000000,0.000000,0.000000
+assembly,,,,,,,,,Std,,,,,,3,L3_nominal,0.000000,0.000000,0.050000,0.000000,0.000000,0.000000
+assembly,,,,,,,,,Std,,,,,,4,L4_nominal,0.000000,0.000000,0.070000,0.000000,0.000000,0.000000
