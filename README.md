@@ -6,14 +6,15 @@ A lightweight, physics-based sandbox for stacking parametric blocks in PyBullet 
 
 ### 1. Create and activate the environment
 ```bash
-conda create -n blocksim python=3.12.9 -y
+conda create -n blocksim python=3.12 -y
 conda activate blocksim
+conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 ### 2. Install the project requirements
 ```bash
-cd C:\\Projects\\blocks-assembly
-pip install -r requirements.txt
+conda install pybullet streamlit numpy pandas -y
 ```
 
 ### 3. Run the Streamlit app
