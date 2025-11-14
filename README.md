@@ -22,8 +22,6 @@ conda install pybullet streamlit numpy pandas -y
 streamlit run app.py
 ```
 
-If a browser doesn’t open automatically, Streamlit prints a local URL—click it. The dependencies are minimal: **pybullet**, **streamlit**, **numpy**, **pandas**, and **Pillow**. The wheel for PyBullet on Windows is prebuilt; no compiler is needed.
-
 ## Unified CSV Overview
 
 Each row belongs to one of four sections, declared in the `section` column:
