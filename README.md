@@ -92,10 +92,34 @@ Non-zero `mu_spin`/`mu_roll` adds damping so small perturbations die out.
 
 `delay_after_s` causes the runner to advance physics for the specified time before placing the next block, helping stacks settle for clearer demos.
 
-### Recommended Defaults for Small Wooden Blocks
-- `WOOD`: `mu_slide ≈ 0.55`, `mu_spin ≈ 0.02`, `mu_roll ≈ 0.01`, `restitution ≈ 0.01`.
+### Recommended Defaults for our Project Plocks
+- μ_slide ≈ 0.50–0.60 (use 0.55 as a default)
+- μ_spin ≈ 0.015–0.030 (use 0.02)
+- μ_roll ≈ 0.006–0.015 (use 0.01)
+- restitution ≈ 0.00–0.02 (use 0.01)
+
 - Ground plane friction: `~1.5–2.0` for stable base contact.
 - Timestep: `1/240 s`, solver iterations `≥120` (already set in the backend).
+
+### Definitions
+- μ_slide (sliding friction)
+Tangential/Coulomb friction resisting lateral slip; main control in Bullet is lateralFriction.
+Too low → creep; too high → unrealistically sticky.
+
+- μ_spin (spinning/torsional friction)
+Resists in-place yaw about the contact normal; Bullet: spinningFriction.
+0 → torsional wobble grows; small > 0 → twist is damped.
+
+- μ_roll (rolling friction)
+Resists rocking/rolling over an edge (rotation in contact plane); Bullet: rollingFriction.
+0 → long micro-rock; small > 0 → seesaw is quickly damped.
+
+- “Bounciness” of a collision:
+Coefficient of restitution (e)
+  ratio of post-impact to pre-impact normal relative speed (0 = no bounce, 1 = perfectly elastic).
+Higher e → more rebound/chatter and longer settling; for small wood blocks use ~0.00–0.02.
+
+
 
 ## Project Layout (Key Files)
 - `app.py` — Streamlit user interface (upload CSV, view definitions, run).
