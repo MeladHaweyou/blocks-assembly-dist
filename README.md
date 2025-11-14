@@ -6,7 +6,7 @@ A lightweight, physics-based sandbox for stacking parametric blocks in PyBullet 
 
 ### 1. Create and activate the environment
 ```bash
-conda create -n blocksim python=3.11 -y
+conda create -n blocksim python=3.12.9 -y
 conda activate blocksim
 ```
 
